@@ -88,7 +88,7 @@ def run():
 
         print ""
 
-        print r+"Hãy sao chép một trong các địa chỉ trên và dán vào trình duyệt"+w
+        print r+"Hay sao chep mot trong cac url tren va truy cap bang trinh duyet"+w
 
         print r+"Please copy a URL on it and paste in your browse"+w 
 
