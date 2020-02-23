@@ -17,7 +17,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 
 
 
-def unitedstates():
+def china():
     global page
     res = requests.get('https://www.insecam.org/en/bycountry/CN/', headers=headers)
     findpage = re.findall('"?page=",\s\d+', res.text)[1]
@@ -50,5 +50,5 @@ def run():
              count += 1
     except:
         print ""
-        print r+"Hãy sao chép một trong các địa chỉ trên và dán vào trình duyệt"+w
+        print r+"Hay sao chep mot trong cac url tren va truy cap bang trinh duyet"+w
         print r+"Please copy a URL on it and paste in your browse"+w 
