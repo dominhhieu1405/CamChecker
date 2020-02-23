@@ -51,4 +51,4 @@ def run():
              count += 1
     except:
         print ""
-        print r+"Makasi udh pake tools kami"+w
+        print r+"Hay sao chep mot trong cac url tren va truy cap bang trinh duyet"+w
